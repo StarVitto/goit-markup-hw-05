@@ -59,11 +59,9 @@ address {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em;
-}
+    letter-spacing: 0.02em;}
 .main-contact:not(:last-child) {
-    margin-right: 50px;
-}
+    margin-right: 50px;}
 .page-logo {
     margin-right: 93px;
     padding-top: 23px;
