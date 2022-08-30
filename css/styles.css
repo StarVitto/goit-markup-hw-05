@@ -436,8 +436,7 @@ address {
     display: flex;}
 .svg-logo-list:not(:last-child) {
     width: calc((100% - 150px) / 6);
-    margin-right: 30px;
-}
+    margin-right: 30px;}
 
 .svg-logo-link {
     display: flex;
