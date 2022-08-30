@@ -57,7 +57,17 @@
       <section class="hero overlay">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="button primary">Замовити послугу</button>
+          <button data-modal-open type="button" class="button primary">Замовити послугу</button>
+        </div>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button data-modal-close type="button" class="btn-close">
+              <svg class="icon-close" width="18px" height="18px">
+                <use href="./images/symbol-defs.svg#icon-close-black-18dp"></use>
+              </svg>
+            </button>
+            <p></p>
+          </div>
         </div>
       </section>
       <!-- особливості -->
@@ -117,13 +127,22 @@
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="list text-list">
             <li class="list-img">
-              <img src="./images/img.jpg" alt="HTML-розмітка всіх елементів макета" width="370" />
+              <div class="sidebar-position">
+                <img src="./images/img.jpg" alt="HTML-розмітка всіх елементів макета" width="370" />
+                <p class="sidebar-text-img">Десктопні додатки</p>
+              </div>
             </li>
             <li class="list-img">
-              <img src="./images/css.jpg" alt="CSS оформлення зовнішній вигляд." width="370" />
+              <div class="sidebar-position">
+                <img src="./images/css.jpg" alt="CSS оформлення зовнішній вигляд." width="370" />
+                <p class="sidebar-text-img">Мобільні додатки</p>
+              </div>
             </li>
             <li class="list-img">
-              <img src="./images/js.jpg" alt="завдаєм кольори" width="370" />
+              <div class="sidebar-position">
+                <img src="./images/js.jpg" alt="завдаєм кольори" width="370" />
+                <p class="sidebar-text-img">Дизайнерські рішення</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -377,5 +396,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
