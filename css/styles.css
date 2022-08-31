@@ -37,8 +37,8 @@ img {
     max-width: 100%;
     height: auto;}
 address {
-    font-style: normal;
-}
+    font-style: normal;}
+    
 .container {
     margin: 0 auto;
     max-width: 1200px;
@@ -51,6 +51,7 @@ address {
 .main-nav {
     display: flex;
     align-items: center;}
+
 .main-list:not(:last-child) {
     margin-right: 50px;}
 .main-contact {
